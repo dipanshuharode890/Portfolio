@@ -1,0 +1,162 @@
+html,body{
+    background-color: #18181b;
+}
+
+.active{
+    color: #6de7c1;
+}
+
+
+.tml:hover{
+    padding: 3vw;
+    color: #6de7c1;
+}
+
+.skills:hover{
+    background-color: black;
+    color: #6de7c1;
+}
+
+.linkCon:hover{
+    color: #6de7c1;
+}
+
+@media only screen and (max-width : 600px) {
+
+    .fixed{
+        padding-left: 2rem;
+    }
+
+    .tarif{
+        margin-top: 8vh;
+    }
+
+    .hite{
+        margin-top: 14vh;
+    }
+    
+    .myproject{
+        margin-top: -4vh;
+    }
+
+    .hr{
+        margin-top: 2rem;
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+
+
+    .led{
+        font-size: 3.8vw;
+    }
+
+    .links{
+        display: none;
+    }
+    .logo{
+        font-size: xx-large;
+    }
+
+    .tarif{
+        width: 100%;
+        display: grid;
+        font-size: 1.2rem;
+    }
+    .tariff{
+        width: 100%;
+        margin-top: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .about{
+        margin-top: 3.5rem;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .intro{
+        width: 100%;
+        padding-right: 1.2rem;
+        padding-left: 1.2rem;
+    }
+    .interest{
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 2rem;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .exp{
+        margin-top: 1rem;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .exper{
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .epxerence{
+        padding-left: 3rem;
+        padding-right: 1rem;
+    }
+
+    .skil{
+        margin-top: 1rem;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .skill{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .skills{
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1rem;
+    }
+
+    .project{
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .projects{
+        width: 100%;
+        display: inline-block;
+        gap: 1;
+        font-size: 1.2rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #dataScroll{
+        display: none;
+    }
+
+    .contact{
+        margin-top: 1rem;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .phone{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .naam{
+        width: 100%;
+        margin-top: 0;
+        font-size: 1.5rem;
+    }
+
+    .tml{
+        height: auto;
+    }
+    .prj{
+        margin-top: 0;
+    }
+    
+}
