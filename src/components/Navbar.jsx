@@ -22,7 +22,7 @@ function Navbar() {
           <li><NavLink to="/contact">Contact</NavLink></li>
           <li>
             <div className='ml-20 border-[1px] items-center bg-emerald-600 border-emerald-400 rounded-[1vw] px-4 py-2'>
-              <button className='flex gap-3 leading-tight'>Resume <TbFileCv /></button>
+              <button className='flex gap-3 leading-tight'><a href="https://drive.google.com/file/d/1ZteCBni7mQ02W7aJsbWNb8ec7ZHFGCjJ/view?usp=drive_link">Resume </a> <TbFileCv /></button>
             </div>
           </li>
         </ul>
