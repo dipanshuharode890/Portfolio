@@ -18,7 +18,7 @@ function Skills() {
     return (
         <div>
             <div className=' skil font-bold text-[3vw] items-center flex justify-center'>
-                <span className='hite mt-[20vh] flex gap-3 leading-tight'>Skills <SiHyperskill /></span>
+                <span className='flex gap-3 leading-tight'>Skills <SiHyperskill /></span>
             </div>
             <div className='skill flex justify-evenly py-10'>
                 <div className='skills w-[20vw] h-[10vh] border border-emerald-400 px-20 py-10 font-semibold text-3xl items-center flex justify-center '>

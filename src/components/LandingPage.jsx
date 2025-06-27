@@ -2,8 +2,9 @@ import React from 'react'
 
 function LandingPage() {
     return (
-        <div data-scroll data-scroll-section data-scroll-speed="-0.4" className='pt-1 w-full h-screen '>
-            <div className='tarif mt-[25vh] bg-zinc-900 flex justify-between'>
+        // <div data-scroll data-scroll-section data-scroll-speed="-0.4" className='pt-1 w-full h-screen '>
+        <div className='pt-1 w-full'>
+            <div className='tarif bg-zinc-900 flex justify-between mt-[10vw]'>
                 <div className='tarif text-[2.5vw] font-semibold uppercase leading-relaxed px-10 w-1/2'>
                     <h1>Frontend Developer 🖥</h1>
                     <h1>A Creative Problem Solver</h1>

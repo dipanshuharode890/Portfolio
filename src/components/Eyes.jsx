@@ -18,7 +18,7 @@ function Eyes() {
     })
 
     return (
-        <div id='dataScroll' data-scroll data-scroll-section data-scroll-speed="1" className='eyes w-full h-[35vh] overflow-hidden mt-[13vh] mb-[5vh] items-center'>
+        <div id='dataScroll' data-scroll data-scroll-section data-scroll-speed="1.5" className='eyes w-full h-[35vh] overflow-hidden mt-[7vh] mb-[7vh] items-center'>
             <div className='relative w-full h-[35vh]'>
                 <div className='absolute flex gap-20 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]'>
 

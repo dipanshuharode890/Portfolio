@@ -10,23 +10,23 @@ function About() {
     return (
         <div>
             <div className='about font-bold text-[3vw] items-center flex justify-center'>
-                <h1 className='hite mt-[20vh]  flex gap-3 leading-tight'>About Me <FcAbout/></h1>
+                <h1 className='flex gap-3 leading-tight'>About Me <FcAbout/></h1>
             </div>
-            <div className='intro px-20 mt-10 text-2xl flex justify-center'>
+            <div className='intro px-20 mt-10 text-[1.5rem] flex justify-center'>
                 <p>Hi Everyone,
                     <br />  I,m Dipanshu Harode A Self Taught Frontend Developer from Dewas, Madhya Pradesh (India). <br />
                     I have completed my 1st. Year in Bcom Computer Application from Devi Ahilya Vishwavidyalaya, Indore (M.P). <br />
                     Later I discovered that my interest is in Tech & coding
                     and I started my coding Journey.</p>
             </div>
-            <div className='interest px-20 mt-20 text-2xl flex justify-center'>
+            <div className='interest px-20 mt-20 font-bold text-4xl flex justify-center mb-7'>
                 <h1 className='flex gap-3 leading-tight'>Interests <MdInterests /> apart from Coding :</h1><br />
             </div>
             <div>
                 <div>
-                    <div className='font-bold text-2xl items-center flex justify-center mt-5'><span className='flex gap-3 leading-tight'>Travelling <BsGlobeCentralSouthAsia /></span></div>
-                    <div className='font-bold text-2xl items-center flex justify-center mt-5'><span className='flex gap-3 leading-tight'>Playing Football <RiFootballLine /></span></div>
-                    <div className='font-bold text-2xl items-center flex justify-center mt-5'><span className='flex gap-3 leading-tight'>Browsering <BsBrowserEdge /></span></div>
+                    <div className='font-bold text-[1.7rem] items-center flex justify-center mt-5'><span className='flex gap-3 leading-tight'>Travelling <BsGlobeCentralSouthAsia /></span></div>
+                    <div className='font-bold text-[1.7rem] items-center flex justify-center mt-5'><span className='flex gap-3 leading-tight'>Playing Football <RiFootballLine /></span></div>
+                    <div className='font-bold text-[1.7rem] items-center flex justify-center mt-5'><span className='flex gap-3 leading-tight'>Browsering <BsBrowserEdge /></span></div>
                 </div>
             </div>
             <div className='hr border-t-[1px] border-emerald-400 mt-20 py-5'></div>

@@ -10,7 +10,7 @@ import Contact from './Contact'
 
 function Home() {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="0.5">
+    <div>
         <Navbar/>
         <LandingPage/>
         <About/>

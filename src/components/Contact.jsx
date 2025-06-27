@@ -5,15 +5,17 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { MdConnectWithoutContact } from "react-icons/md";
-
+import { TbFileCv } from "react-icons/tb";
 
 import { motion } from "framer-motion";
 
 function Contact() {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="-0.2">
+    <div>
+    {/* <div data-scroll data-scroll-section data-scroll-speed="-0.2"> */}
         <div className='contact font-bold text-[3vw] items-center flex justify-center '>
-            <span className=' mt-[20vh] flex gap-3 leading-tight'>GET IN TOUCH <MdConnectWithoutContact /></span>
+            <span className='
+            flex gap-3 leading-tight'>GET IN TOUCH <MdConnectWithoutContact /></span>
         </div>
 
         <div className='phone flex justify-evenly px-8 py-20'>
@@ -22,6 +24,7 @@ function Contact() {
             <a href="https://www.linkedin.com/in/dipanshu-harode-14805a258/"><div className='linkCon flex gap-3 leading-tight text-3xl'><FaLinkedin /></div></a>
             <a href="https://github.com/dipanshuharode890"><div className='linkCon flex gap-3 leading-tight text-3xl'><FaSquareGithub /></div></a>
             <a href="https://x.com/DipanshuHarode?s=09"><div className='linkCon flex gap-3 leading-tight text-3xl'><FaSquareXTwitter /></div></a>
+            <a href="https://drive.google.com/file/d/1ZteCBni7mQ02W7aJsbWNb8ec7ZHFGCjJ/view?usp=drive_link"><div className='linkCon flex gap-3 leading-tight text-3xl'><TbFileCv /></div></a>
         </div>
 
         <div className='text-[4.5vw] flex gap-10 overflow-hidden whitespace-nowrap'>
