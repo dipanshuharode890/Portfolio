@@ -10,7 +10,7 @@ import Skills from './components/Skills'
 import Timeline from './components/Timeline'
 import LocomotiveScroll from 'locomotive-scroll';
 import Home from './components/Home'
-
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 function App() {
@@ -31,6 +31,7 @@ function App() {
             <Route path='/contact' element={<Contact/>} />
           </Routes>
         
+         <SpeedInsights />
         </div>
     </>  
   )
