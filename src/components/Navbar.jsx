@@ -9,8 +9,8 @@ function Navbar() {
 
       <div>
         <NavLink to="/">
-          <img className='image-desktop w-[10vw] h-[15vh]' src="../public/logo.png" alt="" />
-          <img className='image-mobile w-[18vw] h-[9vh]' src="../public/title_logo.png" alt="" />
+          <img className='image-desktop w-[10vw] h-[15vh]' src="/logo.png" alt="image not found" />
+          <img className='image-mobile w-[18vw] h-[9vh]' src="/title_logo.png" alt="image not found" />
         </NavLink>
       </div>
 
